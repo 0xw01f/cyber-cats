@@ -9,15 +9,93 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6, p {
-    color: rgba(231, 231, 228, 0.856);
+    color: rgba(231, 231, 228, 0.623);
+}
+
+p {
+    font-size: 1em;
 }
 
 a {
     color: purple;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #151920; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
 .h-back {
     background-color: #00000050;
+    display: block;
+    text-align: center;
+}
+
+.h-back form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.h-back form input {
+    color: rgba(240, 248, 255, 0.651);
+    background-color: transparent;
+    border-color: #0D1016;
+    border-radius: 0;
+    border: 2px solid rgba(187, 187, 187, 0.699);
+    outline: none;
+
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.h-back form input:focus {
+    color: rgba(240, 248, 255, 0.651);
+    background-color: transparent;
+    border-color: #0D1016;
+    border: 2px solid rgba(187, 187, 187, 0.849);
+    outline: #151920;
+}
+
+.h-back form button {
+    margin-top: -1px;
+    color: rgba(240, 248, 255, 0.651);
+    background-color: transparent;
+    border-color: #0D1016;
+    border-radius: 0;
+    border: 2px solid rgba(187, 187, 187, 0.699);
+  
+}
+
+.h-back form button:hover {
+    color: rgba(240, 248, 255, 0.651);
+    background-color: transparent;
+    border-color: #0D1016;
+    border-radius: 0;
+    border: 2px solid rgba(187, 187, 187, 0.699);
+
+}
+
+button:focus {
+
+    box-shadow: none;
 }
 
 .profile .text{
@@ -45,3 +123,42 @@ a {
     cursor: pointer;
 }
 
+.scrollable-content {
+    height: 65vh;
+    overflow: auto;
+    overflow-x: hidden;
+    background-color: #0D1016;
+  }
+
+  .roww {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .columnn {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .columnn img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+  .cat-profile img {
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    border: 2px solid #bbb;
+    transition: 0.3s;
+}
+
+.progress {
+    background-color: transparent !important;
+}
+
+.progress-bar {
+    border-bottom: 2px solid rgba(87, 87, 87, 0.363) !important;
+}

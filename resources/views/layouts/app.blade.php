@@ -12,6 +12,9 @@
 
         <!-- Font -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
+
+        <script src="{{ asset('js/app.js') }}" defer></script>
+        <script src="{{ mix('/js/app.js') }}"></script>
                
     </head>
     <body>
@@ -35,8 +38,11 @@
               </div>
             </div>
           </nav>
-        <div class="py-5 h-back">
-            Some header stuff
+        <div class="py-4 h-back">
+            <div id="app">
+                <search-button></search-button>
+            </div>
+            
         </div>
 
 
