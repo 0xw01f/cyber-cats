@@ -4,16 +4,27 @@
 <div class="content">
     <div class="row">
         <div class="col-sm-2 mx-3 row profile">
-            <div class="col-sm-12">
-                   <img src="https://www.vettedpetcare.com/vetted-blog/wp-content/uploads/2017/09/How-To-Travel-With-a-Super-Anxious-Cat-square.jpeg">
+            <div>
+                <div class="col-sm-12">
+                    <img src="https://www.vettedpetcare.com/vetted-blog/wp-content/uploads/2017/09/How-To-Travel-With-a-Super-Anxious-Cat-square.jpeg">
+                </div>
+                <div class="col-sm-12 text">
+    
+                    <h1>Controls</h1>
+                    <div class="controls">
+                        <ul>
+                            <li><a href="#profile"><span><i class="far fa-user fa-fw"></i></span> Administrator</a></li>
+                            <li><a href="#messages"><span><i class="far fa-envelope fa-fw"></i></span> 1 new message(s)</a></li>
+                            <li><a href="#alerts"><span><i class="far fa-bell fa-fw"></i></span> 5 new alert(s)</a></li>
+                            <li><a href="#balance"><span><i class="far fa-credit-card fa-fw"></i></span> 890 credits</a></li>
+                        </ul>
+                        
+                        
+                    </div>
+                   
+                </div>
             </div>
-            <div class="col-sm-12 text">
-                <h1>Administrator</h1>
-                <div></div>
-                <a href="#" style="text-transform: capitalize;"><span><i class="far fa-user fa-fw"></i></span> Jane Doe</a>
-                <a href="#" style="text-transform: capitalize;"><span><i class="far fa-user fa-fw"></i></span> Jane Doe</a>
-                <a href="#" style="text-transform: capitalize;"><span><i class="far fa-user fa-fw"></i></span> Jane Doe</a>
-            </div>
+           
            
         </div>
 

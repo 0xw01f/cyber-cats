@@ -18,7 +18,7 @@ p {
 }
 
 a {
-  color: #682068 !important;
+  color: #b3b3b3 !important;
   transition: 0.4s;
 }
 
@@ -95,6 +95,7 @@ button:focus {
 }
 
 .profile .text {
+  margin-top: 10px;
   border-bottom: 2px solid #bbb;
 }
 
@@ -103,17 +104,17 @@ button:focus {
   padding: 5px;
   margin-top: 0px;
   border: 2px solid #bbb;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .text a:hover {
   text-decoration: none !important;
-  color: #35358a !important;
+  color: rgba(53, 53, 138, 0.589) !important;
 }
 
 .profile img {
-  width: 120px;
-  height: 120px;
+  width: 90px;
+  height: 90px;
   padding: 5px;
   border: 2px solid #bbb;
   transition: 0.3s;
@@ -122,6 +123,10 @@ button:focus {
 .profile img:hover {
   opacity: 0.5;
   cursor: pointer;
+}
+
+.controls ul {
+  list-style: none;
 }
 
 .scrollable-content {
@@ -150,6 +155,7 @@ button:focus {
 
 .cat-profile {
   background-color: #0D1016;
+  padding: 10px;
 }
 
 .right {
