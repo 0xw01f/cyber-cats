@@ -8,63 +8,89 @@
                    <img src="https://www.vettedpetcare.com/vetted-blog/wp-content/uploads/2017/09/How-To-Travel-With-a-Super-Anxious-Cat-square.jpeg">
             </div>
             <div class="col-sm-12 text">
-                <h1>Cat infos</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde iste voluptatum corrupti eius ratione, numquam, maxime temporibus veritatis vel voluptatem dignissimos repellat aspernatur facere distinctio et, obcaecati illo magnam totam.</p>
+                <h1>Administrator</h1>
+                <div></div>
+                <a href="#" style="text-transform: capitalize;"><span><i class="far fa-user fa-fw"></i></span> Jane Doe</a>
+                <a href="#" style="text-transform: capitalize;"><span><i class="far fa-user fa-fw"></i></span> Jane Doe</a>
+                <a href="#" style="text-transform: capitalize;"><span><i class="far fa-user fa-fw"></i></span> Jane Doe</a>
             </div>
            
         </div>
+
         <div class="col-sm-offset-0 col-sm-9">
             <div class="container">
                 <div class="row cat-profile">
-                    <div class="col-sm-4">
-                        <div class="picture">
-                            <img src="https://www.vettedpetcare.com/vetted-blog/wp-content/uploads/2017/09/How-To-Travel-With-a-Super-Anxious-Cat-square.jpeg">
-                        </div>
+
+                    <div class="col-sm-4 right">
+                        <div class="img-content glitch-img">
+                            <div id="picture" style="background:rgba(2,11,28,0.5); width: 250px; height: 250px; padding: 50px; ">
+                            
+                            </div>
+                          </div>
                     </div>
+
                     <div class="col-sm-4">
+                        
                         <div class="scrollable-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi provident corrupti nostrum sed, necessitatibus, id nesciunt ex esse eos rem distinctio possimus beatae minus labore! Aspernatur molestias hic nisi corporis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia nemo placeat cumque nesciunt in, tempore consectetur rem laboriosam, sed adipisci amet culpa tenetur iste quod quis unde, fugit molestias nam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate adipisci sequi ea maxime minus, sit quae debitis voluptate corrupti culpa accusamus, porro quidem quod deserunt sunt impedit praesentium? Atque, officia! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint tenetur ipsa nihil neque sed, mollitia dolorum nisi quidem distinctio dignissimos natus! Quis, temporibus quo magni nam vitae perferendis consequatur voluptatibus.
-                            </p>
+                            <h2 id="name">Lorem name</h2>
+                            <p id="description" class="cat-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero debitis, mollitia officiis error quae accusantium dolorum sunt, blanditiis deleniti tempora iste exercitationem facilis fuga repudiandae. Modi suscipit aperiam consequatur. Et!</p>
+                            <h5 id="temperament"></h5>
+                            <h5 id="origin"></h5>
+                            <h5 id="lifespan"></h5>
                         </div>
                     </div>
-                    <div class="col-sm-4">
-                        <h3>Skill #1</h3>
+                    <div class="col-sm-4 skills">
+                        
+                        <h5>Adaptability</h5>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div id="adaptability" class="progress-bar" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <h3>Skill #2</h3>
+
+                        <h5>Affection level</h5>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div id="affection-level" class="progress-bar" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <h3>Skill #3</h3>
+
+                        <h5>Child friendly</h5>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div id="child-friendly" class="progress-bar" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <h3>Skill #4</h3>
+
+                        <h5>Grooming</h5>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div id="grooming" class="progress-bar" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <h3>Skill #5</h3>
+
+                        <h5>Intelligence</h5>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div id="intellignece" class="progress-bar" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <h3>Skill #6</h3>
+
+                        
+                        <h5>Health issues</h5>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div id="health-issues" class="progress-bar" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <h3>Skill #7</h3>
+
+                        
+                        <h5>Social needs</h5>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div id="social-needs" class="progress-bar" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <h3>Skill #8</h3>
+
+                        
+                        <h5>Stranger friendly</h5>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div id="stranger-friendly" class="progress-bar" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
+              
+                        
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 
 @endsection

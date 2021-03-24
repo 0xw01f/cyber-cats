@@ -1873,7 +1873,48 @@ __webpack_require__.r(__webpack_exports__);
         }
       };
       axios.request(options).then(function (response) {
-        console.log(response.data);
+        var options = {
+          method: 'GET',
+          url: 'https://api.thecatapi.com/v1/images/' + response.data[0].reference_image_id,
+          headers: {
+            cookie: '__cfduid=d26031aea82cfdfbf2f420e11ede4cc1c1616518363'
+          }
+        };
+        axios.request(options).then(function (response) {
+          console.log(response.data);
+          var obj = response.data;
+          var picture = document.getElementById("picture");
+          var name = document.getElementById("name");
+          var description = document.getElementById("description");
+          var temperament = document.getElementById("temperament");
+          var origin = document.getElementById("origin");
+          var lifespan = document.getElementById("lifespan");
+          var adaptability = document.getElementById("adaptability");
+          var affectionLevel = document.getElementById("affection-level");
+          var childFriendly = document.getElementById("child-friendly");
+          var grooming = document.getElementById("grooming");
+          var intelligence = document.getElementById("intellignece");
+          var healthIssues = document.getElementById("health-issues");
+          var socialNeeds = document.getElementById("social-needs");
+          var strangerFriendly = document.getElementById("stranger-friendly");
+          picture.style.backgroundImage = "url('" + obj.url + "')";
+          picture.style.backgroundColor = "#f3f3f3";
+          description.innerText = obj.breeds[0].description;
+          name.innerText = obj.breeds[0].name;
+          temperament.innerHTML = "<b>Temperament :</b> " + obj.breeds[0].temperament;
+          origin.innerHTML = "<b>Origin :</b> " + obj.breeds[0].origin;
+          lifespan.innerHTML = "<b>Lifespan :</b> " + obj.breeds[0].life_span + " years";
+          adaptability.style.width = obj.breeds[0].adaptability * 10 * 2 + "%";
+          affectionLevel.style.width = obj.breeds[0].affection_level * 10 * 2 + "%";
+          childFriendly.style.width = obj.breeds[0].child_friendly * 10 * 2 + "%";
+          grooming.style.width = obj.breeds[0].grooming * 10 * 2 + "%";
+          intelligence.style.width = obj.breeds[0].intelligence * 10 * 2 + "%";
+          healthIssues.style.width = obj.breeds[0].heanth_issues * 10 * 2 + "%";
+          socialNeeds.style.width = obj.breeds[0].social_needseeds * 10 * 2 + "%";
+          strangerFriendly.style.width = obj.breeds[0].stranger_friendly * 10 * 2 + "%";
+        })["catch"](function (error) {
+          console.error(error);
+        });
       })["catch"](function (error) {
         console.error(error);
       });

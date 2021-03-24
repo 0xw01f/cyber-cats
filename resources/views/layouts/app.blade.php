@@ -13,6 +13,10 @@
         <!-- Font -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
 
+        <!-- Font awesome -->
+        <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">        
+        
+        <!-- scrips -->
         <script src="{{ asset('js/app.js') }}" defer></script>
         <script src="{{ mix('/js/app.js') }}"></script>
                
@@ -51,5 +55,6 @@
         </main>
         
         </div>
+       
     </body>
 </html>
